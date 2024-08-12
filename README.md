@@ -1,10 +1,10 @@
-![TRONWallet](https://raw.githubusercontent.com/erfanmola/DPXWallet/master/docs/DPXWallet.gif)
+![BTTCWallet]
 
-# DPXWallet
-DPXWallet is a Feature-Rich demonstration of a dummy Wallet app built in Telegram. It's main purpose is for [Telegram Mini App Contest](https://t.me/contest/327)
+# BTTCWallet
+BTTCWallet is a Feature-Rich demonstration of a BTT Wallet app built in Telegram.
 
 ## Telegram WebApp
-You can access the DPXWallet WebApp in Telegram using [@DPXWalletBot](https://t.me/DPXWalletBot) or you can directly open [DPXWallet WebApp](https://t.me/DPXWalletBot/app).
+You can access the DPXWallet WebApp in Telegram using [@BTTCWallet](https://[t.me/DPXWalletBot](http://t.me/BTTCWalletBot/BTTCWallet)) or you can directly open [DPXWallet WebApp](https://[t.me/BTTCWalletBot/BTTCWallet](http://t.me/BTTCWalletBot/BTTCWallet)).
 
 ## Documentation
 DPXWallet has a comprehensive [Documentation](https://erfanmola.github.io/DPXWallet/), addressing multiple aspects of the technical development. We recommend you to start from there.
