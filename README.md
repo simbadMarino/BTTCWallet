@@ -1,5 +1,3 @@
-![BTTCWallet]
-
 # BTTCWallet
 BTTCWallet is a Feature-Rich demonstration of a BTT Wallet app built in Telegram.
 
