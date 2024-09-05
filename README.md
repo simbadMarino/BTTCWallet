@@ -23,7 +23,6 @@ DPXWallet has a comprehensive [Documentation](https://erfanmola.github.io/DPXWal
 
 ### Deployment
 - cd api
-- 
 - Build the Docker image:
   ```
   docker build -t demo/laravel:0.1 . --progress=plain --no-cache
