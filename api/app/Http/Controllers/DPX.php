@@ -91,7 +91,7 @@ class DPX extends Controller
     public static function CreateWallet(string $wallet = null)
     {
         // Generate the wallet if not provided
-        if (!($wallet)) {
+        if (!$wallet) {
             $wallet = DPX::GenerateBTTCAddress();
         }
         // dd($wallet['addressData']->privateKey);
@@ -127,7 +127,7 @@ class DPX extends Controller
     public static function Transfer(string $departure, string $destination, string $amount, string $secret, float $fee = null)
     {
         try {
-            $httpProvider = new HttpProvider(self::MAINNET_HTTP_PROVIDER);
+            $httpProvider = new HttpProvider(self::MAINNET_HTTP_PROVIDER, 100000);
             $contract = new Contract($httpProvider, self::ABI);
             $eth = $contract->eth;
 
@@ -237,7 +237,7 @@ class DPX extends Controller
     {
         try {
             // Initialize the HTTP provider and contract
-            $httpProvider = new HttpProvider(self::MAINNET_HTTP_PROVIDER);
+            $httpProvider = new HttpProvider(self::MAINNET_HTTP_PROVIDER, 100000);
             $contract = new Contract($httpProvider, self::ABI);
 
             // Define a callback function for handling the balance result
