@@ -21,6 +21,18 @@ DPXWallet has a comprehensive [Documentation](https://erfanmola.github.io/DPXWal
 ### BackEnd
 - [Setting Up the BackEnd](https://erfanmola.github.io/DPXWallet/setting-up-backend.html)
 
+### Deployment
+- cd api
+- 
+- Build the Docker image:
+  ```
+  docker build -t demo/laravel:0.1 . --progress=plain --no-cache
+  ```
+- Run the Docker container:
+  ```
+  docker run -p 8080:80 demo/laravel:0.1
+  ```
+
 ### API
 - [DPX API Guide](https://erfanmola.github.io/DPXWallet/dpx-api.html)
 
